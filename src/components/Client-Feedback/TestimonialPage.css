@@ -1,0 +1,43 @@
+/* Styles for testimonial cards */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  .card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Styles for testimonial names and designations */
+  .card-footer small {
+    display: block;
+    font-size: 0.8rem;
+    color: #6c757d;
+  }
+
+  /* Hover effect for testimonial cards */
+.card:hover {
+    transform: translateY(-5px);
+    transition: all 0.5s ease;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 30px;
+    }
+  }
+  

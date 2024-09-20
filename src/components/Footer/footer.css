@@ -1,0 +1,27 @@
+.footer {
+    /* background: rgba(226, 248, 248, 0.664); */
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+    color: white;
+  }
+  
+  .follows span a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .follows span {
+    margin-right: 15px;
+    color: white;
+  }
+  
+  .link__list .link__item {
+    background: transparent;
+    color: white;
+  }
+  
+  .link__list a {
+    text-decoration: none;
+    color: #0a2b1e;
+    font-weight: 500;
+    color: white;
+  }

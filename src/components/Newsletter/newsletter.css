@@ -1,0 +1,36 @@
+.newsletter {
+  background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+  
+    padding: 60px;
+    border-radius: 15px;
+  }
+  
+  .newsletter h2 {
+    color: #fff;
+  }
+  .subscribe input {
+    border: none;
+    outline: none;
+  }
+  
+  .subscribe {
+    padding: 7px 10px;
+    background: #fff;
+    width: 45%;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 768px) {
+    .newsletter {
+      padding: 30px;
+    }
+  
+    .subscribe {
+      width: 90%;
+      max-width: none;
+    }
+  }
